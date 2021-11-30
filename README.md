@@ -1,6 +1,10 @@
-Java Hello World Demo
+Java Test Mockito AnyString Demo
 =====================
 
-Use maven for Java.
+当我们给mockito设置行为时，可以使用`anyString`告诉我们在某种条件下，不关心具体传入的值。
 
-Run `Hello.java` in your IDE.
+这种情况比设置一个`null`要更加表意
+
+```
+mvn test
+```
