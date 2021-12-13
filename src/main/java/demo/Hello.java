@@ -2,14 +2,14 @@ package demo;
 
 public class Hello {
 
-    private final Util util;
+  private final Util util;
 
-    public Hello(Util util) {
-        this.util = util;
-    }
+  public Hello(Util util) {
+    this.util = util;
+  }
 
-    public String hello(String name) {
-        return "Hello, " + this.util.toUpper(name);
-    }
+  public String hello(User user) {
+    return "Hello, " + this.util.toString(user);
+  }
 
 }
